@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task_2</title>
+</head>
+<style type="text/css">
+	body{margin: 0px;padding: 0px;background: #ccc;}
+	#TopWrapperBox{height:50px;width: 100%;background: #666666;margin:0px;position: relative;}
+	#urlList{position:absolute;float: right;right: 0px;}
+	#lable_pic{position: absolute;margin: 3px;}
+	#url li{float:left;list-style-type: none;}
+	#url a{border:bold 1px;padding:10px;font-size:14px;color: white;}
+	#pictures div{border:1px solid; position: relative;}
+	.block {margin:20px;padding:10px;background: white;border-top:1px solid #ddcccc;border-left:1px solid #ddcccc;border-bottom: 2px solid #666666;border-right: 2px solid #666666;}
+	.author_time {font-size: 10px;color:#cfcccc;}
+	.subtitle {font-size: 20px;color:#cfcccc;}
+	table{border-collapse: collapse;width: 100%;}
+	th{color: white;background: #666666;}
+	#last_row td{border:0px;background: #cccccc;color: white;}
+	#submit{display: block;width: 100%;height:50px;background: #0000ff;color: white;font-size: 20px;}
+	#text_area{display:inline;position: absolute;width: 100%;top: 230px;left: 130px;}
+	#DownWrapperBox{width: 100%;height: 50px;background: #333333;}
+</style>
+<body>
+<div id="TopWrapperBox" >
+	<div id="lable_pic"><img src="bd_logo1_31bdc765.png" height="44px" /></div>
+	<div id="urlList">
+	<ul id ="url">
+		<li><a href="#" title="文章导航1">文章导航1</a></li>
+		<li><a href="#" title="文章导航2">文章导航2</a></li>
+		<li><a href="#" title="文章导航3">文章导航3</a></li>
+		<li><a href="#" title="文章导航4">文章导航4</a></li>
+	</ul>
+	</div>
+</div>
+<div id="first_passage" class="block">
+	<h2>文章一级标题</h2>
+	<h2 class="subtitle">文章二级标题</h2>
+	<p class="author_time">文章作者 &nbsp;文章发表时间</p>
+	<p>
+		这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落<br/>换行了<br/>
+		这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落<br />换行了<br />
+		这里有一个链接<a href="http://www.baidu.com" title="百度首页">www.baidu.com</a>,这里有一个<strong>粗体字</strong>,这里有一个<em>斜体字</em>,还有一个代码引用<code>#include&lt;iostream&gt;;</code>,还有一片代码引用<br/>
+		<pre>
+		using namespace std;
+		int main()
+		{
+			cout&lt;&lt;"hello world"&lt;&lt;endl;
+		}
+		</pre>
+		这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落<br/><br/>
+		<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1489998333&amp;di=2eb27351bf1ac2f07ef2ac36072653ac&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fe%2F53d07c073666f.jpg"  width="30%"/>
+	</p>
+	<p>
+		这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落<br />换行了<br />
+		这里有一个新窗口打开的链接<a href="http://www.baidu.com" title="百度首页" target="_blank">www.baidu.com</a>
+	</p>
+</div>
+<div id="second_passage" class="block">
+	<h2>另一篇文章一级标题</h2>
+	<h2 class="subtitle">文章二级标题</h2>
+	<p class="author_time">文章作者 &nbsp;文章发表时间</p>
+	<p>
+		这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落<br/>换行了<br/>
+		这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落<br />换行了<br /><br />
+		<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1489998333&amp;di=2eb27351bf1ac2f07ef2ac36072653ac&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fe%2F53d07c073666f.jpg"  width="30%"/><br />
+		<ul>
+			<li>项目列表1</li>
+			<li>项目列表2</li>
+			<li>项目列表3</li>
+		</ul>
+	</p>
+</div>
+<div id="pictures" class="block">
+	<h2>图片</h2>
+	<blockquote>
+		好看的图片
+		<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1489998333&amp;di=2eb27351bf1ac2f07ef2ac36072653ac&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fe%2F53d07c073666f.jpg"  width="30%" style="display:block;"/>
+		<p>好看的图片<br />
+		<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1489998333&amp;di=2eb27351bf1ac2f07ef2ac36072653ac&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fe%2F53d07c073666f.jpg"  width="30%"/>
+		</p>
+		<p>好看的图片<br />
+		<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1489998333&amp;di=2eb27351bf1ac2f07ef2ac36072653ac&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fe%2F53d07c073666f.jpg"  width="30%"/>
+		</p>
+		<p>好看的图片<br />
+		<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1489998333&amp;di=2eb27351bf1ac2f07ef2ac36072653ac&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fe%2F53d07c073666f.jpg"  width="30%"/>
+		</p>
+		<p>好看的图片<br />
+		<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1489998333&amp;di=2eb27351bf1ac2f07ef2ac36072653ac&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fe%2F53d07c073666f.jpg"  width="30%"/>
+		</p>
+	</blockquote>
+</div>
+<div id="last_passage" class="block">
+	<h2>最后一篇文章一级标题</h2>
+	<h2 class="subtitle">文章二级标题</h2>
+	<p class="author_time">
+		文章作者 &nbsp;文章发表时间	
+	</p>
+	<p>
+		<ol>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+		</ol>
+		<table border="1">
+			<tbody>
+				<tr >
+					<th width="40%" align="left">表头</th>
+					<th width="40%" align="left">表头</th>
+					<th width="20%" align="left">表头</th>
+				</tr>
+				<tr>
+					<td>内容</td>
+					<td>内容</td>
+					<td>操作</td>
+				</tr>
+				<tr>
+					<td>内容</td>
+					<td>内容</td>
+					<td>操作</td>
+				</tr>
+				<tr id="last_row">
+					<td>总计</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</tbody>
+		</table>
+	</p>
+</div>
+<div id="side_col" class="block" style="position: relative;height: 500px;margin-bottom: 10px">
+	<h2>一个侧栏,侧栏标题</h2>
+	<p>
+		<form method="post" action="save.php"><div style="position: absolute; top: 80px;left:30%;width: 100%">
+			<label for="mail_address">邮箱地址：</label><input type="text" name="mail_address" id="mail_address" value="" />
+			<p>请输入正确的邮箱地址</p>
+			<label for="password">密码：</label><input type="password" name="password" id="password" />
+			<label for="confirm_password">确认密码：</label><input type="password" name="confirm_password" id="confirm_password" />
+			<p>密码是6-16位英文数字组合</p>
+			<label>性别：</label>
+				<label for="male">男</label><input type="radio" id="male" value="1" name="gender">
+				<label for="female">女</label><input type="radio" id="female" value="2" name="gender"><br/>
+			<label>城市：</label>
+				<select>
+					<option value="bj">北京</option>
+					<option value="sh">上海</option>
+					<option value="sz" selected="selected">深圳</option>
+					<option value="gz">广州</option>
+				</select><br/>
+			<label>爱好：</label>
+				<label for="sports">运动</label><input type="checkbox" id="sports" value="3" />
+				<label for="art">艺术</label><input type="checkbox" id="art" value="4" />
+				<label for="science">科学</label><input type="checkbox" id="science" value="5" /><br />
+			个人描述
+				<div id="text_area"><textarea style="width:30%;height: 80px;"></textarea></div></div>
+			<div style="position: absolute;bottom: 5%;left:10%;width: 80%;margin:0;padding: 0;"><input type="submit" id="submit" value="提交" ／></div>
+
+		</form>
+	</p>
+</div>
+<div id="DownWrapperBox"></div>
+</body>
+</html>
